@@ -3,52 +3,105 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Matematica</title>
+<title>Matéria de matemática</title>
 <style>
-  header{
-      background-color: rgb(47, 199, 204);
-   color: black;
+header{
+   background-color: rgb(255, 171, 216);
+   color:rgb(255, 80, 168);
    text-align: center;
-  }
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 16px;
+}
+main {
+background-color: #f0c4d6;
+color: #f368ad;
+max-width: 800px;
+margin: 0 auto;
+padding: 16px;
+}
+article{
+display: flex;
+}
+img {
+width: 80px;
+height: 80px;
+}
+.artigo-autor {
+font-weight: bold;
+}
 </style>
 </head>
 <body>
 <header>
-    <h1>Meu blog sobre matematica</h1>
-    <p>Vou compartilhar curiosidades sobre matematica</p>
+  <h1>Seja-bem vindo!</h1>
+  <p>vou compartilhar curiosidades sobre a matemática</p>
 </header>
 <main>
-    <article>
-        <img src="" alt="Matematica">
-        <div>
-            <h2>Tarefas de matematica</h2>
-            <p class="artigo-autor">por: Gabrielly</p>
-            <p>Quais são as tarefas que vocês fazem?  Quais são as plataformas que vocês usam? Usamos khan academy.</p>
+  <article>
+      <img scr="https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/06/numero-pi.jpg"alt=matemática>
+      <div>
+          <h2>curiosidade sobre a matematica</h2>
+          <p class="artigo-autor">Por Gabrielly</p>
+          <p>é uma matéria com muitas curiosidades e importâcia. </p>
 
 
 
 
-            <button>👍<span>0</span></button>
-             <button>❤️<span>0</span></button>
-        </div>
-    </article>
-     <article>
-        <img src="" alt="Matematica">
-        <div>
-            <h2>Curiosidades da matematica</h2>
-            <p class="artigo-autor">por: Gabrielly</p>
-            <p>Ten vario exercicios legais</p>
 
 
 
 
-            <button>👍<span>0</span></button>
-             <button>❤️<span>0</span></button>
-        </div>
-    </article>
+          <button>🤓<span>0</span></button>
+           <button>🧐<span>0</span></button>
+      </div>
+  </article>
+         <article>
+      <img scr=""alt=matemática>
+      <div>
+          <h2>
+O Poder do Número 10!
+
+
+• Seis semanas em segundos: Se você calcular 10! (dez fatorial: 10 × 9 × 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1), o resultado é exatamente 3.628.800 segundos, o que equivale exatamente a 6 semanas.
+</h2>
+          <p class="artigo-autor">Por Gabrielly</p>
+          <p> É possível escrever todos os números inteiros de 0 a 100 usando exatamente quatro algarismos 4 e operações matemáticas básicas. </p>
+
+
+
+
+
+
+
+
+          <button>🤓<span>0</span></button>
+           <button>🧐<span>0</span></button>
+      </div>
+  </article>
 </main>
 </body>
+<script>
+ const botoes = document.querySelectorAII("button");
+ botoes.forEach(function (botao){
+     // instruções para cada botão});
+     let curtiu = false;
+     botao.addEventListener("click", botaoClicado);
+     function botaoClicado(){
+         console.log("fui clicado");
+         if (curtiu === false){
+           texto.textContent++;
+           curtiu = true;
+         } else {
+           texto.textContent--;
+           curtiu = false;
+         }
+     }
+   })
+
+
+</script>
+
+
 </html>
-
-
 
